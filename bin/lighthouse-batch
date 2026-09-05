@@ -1,0 +1,3 @@
+#!/bin/sh
+export PYTHONPATH="/workspace${PYTHONPATH:+:$PYTHONPATH}"
+exec python3.11 -m lighthouse_batch "$@"
