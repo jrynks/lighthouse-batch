@@ -1,0 +1,10 @@
+{
+  "lighthouseVersion": "13.0.0",
+  "categories": {
+    "performance": { "id": "performance", "score": 0.8 },
+    "seo": { "id": "seo", "score": null }
+  },
+  "audits": {
+    "largest-contentful-paint": { "displayValue": "1.2 s" }
+  }
+}

@@ -1,0 +1,8 @@
+# Copy to ~/.config/lighthouse-batch/config.toml
+# Do not commit real keys. Prefer env: export PSI_API_KEY=…
+
+# psi_api_key = "YOUR_PAGESPEED_INSIGHTS_API_KEY"
+strategy = "mobile"
+output_dir = "/tmp/lighthouse-batch"
+concurrency = 2
+timeout_sec = 120
